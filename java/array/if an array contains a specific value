@@ -1,0 +1,18 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    boolean result = false;
+	    int[] a = {1,2,3,4,5};
+	    int b= 4;
+	    for (int i:a){ 
+	        if(i==b){
+	            result = true;
+	        }
+	    }
+            if(result){
+	    		System.out.println(b + " contains in array");
+            }else{
+                System.out.println(b + "not contains in array");
+            }
+	}
+}
