@@ -8,7 +8,7 @@ public class Main {
         String name=scanner.nextLine();
         System.out.println("\nEnter Age:");
         int age=scanner.nextInt();
-        System.out.println("\nHave license:");
+        System.out.println("\nHave license: Enter true or false");
         Boolean license=scanner.nextBoolean();
         System.out.println("\nGive rating 1.0 of 10.0:");
         float rating=scanner.nextFloat();
