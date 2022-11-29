@@ -1,0 +1,27 @@
+#Scan the different datatype using scanner and print them
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter your name:");
+        String name=scanner.nextLine();
+        System.out.println("\nEnter Age:");
+        int age=scanner.nextInt();
+        System.out.println("\nHave license:");
+        Boolean license=scanner.nextBoolean();
+        System.out.println("\nGive rating 1.0 of 10.0:");
+        float rating=scanner.nextFloat();
+        scanner.nextLine();
+        System.out.println("\nEnter email:");
+        String email=scanner.nextLine();
+        System.out.println("\nEnter favourite alphabet");
+        char alphabet=scanner.next().charAt(0);
+        System.out.println("name:"+name);//String
+        System.out.println("Age:"+age);//integer
+        System.out.println("License:"+license);//boolean
+        System.out.println("Rating:"+rating);//float
+        System.out.println("Email:"+email);//string
+        System.out.println("Favourite alphabet:"+ alphabet);//character
+    }
+}
