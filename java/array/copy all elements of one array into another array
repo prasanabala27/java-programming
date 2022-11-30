@@ -1,0 +1,13 @@
+import java.util.Arrays; 
+
+public class Main
+{
+	public static void main(String[] args) {
+    int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+    int[] my_array1 = new int[my_array.length];
+	    for(int i=0;i<my_array.length;i++){
+        my_array1[i] = my_array[i];
+		}
+		System.out.print(Arrays.toString(my_array1));
+	}
+}
