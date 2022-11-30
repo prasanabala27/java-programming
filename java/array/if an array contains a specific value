@@ -17,6 +17,7 @@ public class Main
 	}
 }
 
+To find the index of array 
 public class Main
 {
 	public static void main(String[] args) {
