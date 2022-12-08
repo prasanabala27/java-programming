@@ -1,0 +1,44 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    String a ="helloworld";
+	    String b ="goodmrng";
+	    String c ="HELLOWORLD";
+	    String d =" java     ";
+	    String e ="java is prog lang";
+		System.out.println(a.charAt(1));
+		System.out.println(a.indexOf('o'));
+		System.out.println(a.concat(b));
+		System.out.println(a.startsWith("h"));
+		System.out.println(a.endsWith("d"));
+		System.out.println(a.equals(c));
+		System.out.println(a.equalsIgnoreCase(c));
+		System.out.println(a.length());
+		System.out.println(d.trim());
+		System.out.println(a.toUpperCase());
+		System.out.println(c.toLowerCase());
+		System.out.println(a.replace('o','e'));
+		System.out.println(a.replaceFirst("o","e"));
+		System.out.println(b.replaceAll("mrng","eve"));
+		System.out.println(a.substring(0,4));
+	}
+}
+
+output
+e
+4
+helloworldgoodmrng
+true
+true
+false
+true
+10
+java
+HELLOWORLD
+helloworld
+hellewerld
+helleworld
+goodeve
+hell
+5
+
