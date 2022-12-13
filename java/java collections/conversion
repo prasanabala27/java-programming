@@ -1,0 +1,5 @@
+conversion array to list
+
+String[] a = {"red" ,"hi","ko","po"};
+  List<String> list_Strings = new ArrayList<String>();
+    Collections.addAll(list_Strings,a);
