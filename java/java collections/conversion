@@ -1,5 +1,15 @@
-conversion array to list
+convert array to list
 
-String[] a = {"red" ,"hi","ko","po"};
+String[] a = {"a" ,"b","c","d"};
   List<String> list_Strings = new ArrayList<String>();
     Collections.addAll(list_Strings,a);
+
+convert List To Array 
+
+		List<String> letters = new ArrayList<String>();
+    letters.add("a");
+		letters.add("b");
+		letters.add("c");
+    
+  String[] strArray = new String[letters.size()];
+	strArray = letters.toArray(strArray);
