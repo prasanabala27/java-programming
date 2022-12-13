@@ -1,0 +1,9 @@
+Collections.sort(listname)
+Collections.copy(listname)
+Collections.shuffle(listname)
+Collections.reverse(listname)
+Collections.swap(listname,index(from),index(to))
+Collections.min(listname)
+Collections.max(listname)
+Collections.frequence(listname)
+....
