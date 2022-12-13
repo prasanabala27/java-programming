@@ -1,0 +1,14 @@
+ex:ArrayList<String> listname = new ArrayList<String>();
+
+listname.add()
+listname.remove()
+listname.get(index)
+listname.set(index,element) //Replaces the element at the specified position in the list with the specified element.
+listname.clear() // Removes all the elements from the list.
+listname.size() // to get the number of elements in the list.
+listname.isEmpty() //to check if list is empty or not.
+listname.contains()
+listname.equals()
+listname.addAll()
+listname.removeAll()
+listname.subList(int fromIndex, int toIndex)
