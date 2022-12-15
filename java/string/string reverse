@@ -7,3 +7,22 @@ public class Main
 } 
 	}
 }
+output
+avaj
+
+
+reverse words in a string
+public class Main
+{
+	public static void main(String[] args) {
+	    String a ="java is a prog lang";
+	    String[] b = a.split(" ");
+	    String d ="";
+	    for(int i = b.length-1;i>=0;i--){
+	        d +=b[i]+" ";
+}
+    System.out.println(d);
+	}
+}
+output
+lang prog a is java 
