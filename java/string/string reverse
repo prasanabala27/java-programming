@@ -10,8 +10,8 @@ public class Main
 output
 avaj
 
-
-reverse words in a string
+#using array
+#reverse words in a string
 public class Main
 {
 	public static void main(String[] args) {
