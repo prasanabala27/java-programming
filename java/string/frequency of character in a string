@@ -5,17 +5,17 @@ class Main
     public static void main (String[] args) {
         char[] str = {'b','a','l','a','j','i','b'};
         int i,j;
-        int c=1;
+        int count=1;
         for (i=0;i<str.length;i++){
-            c=1;
+            count=1;
             if(str[i]!='0'&&str[i]!=' '){
                 for (j=i+1;j<str.length;j++){
                     if(str[i]==str[j]){
-                        c++;
+                        count++;
                         str[j]='0';
                     }
                 }
-                System.out.println(str[i]+" "+c);
+                System.out.println(str[i]+" "+count);
             }
         } 
     }
