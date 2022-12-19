@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+	  String str1 = "hello";
+      char[] arr1 = str1.toCharArray();
+      String a = "";
+      for(char i:arr1){
+          if(a.indexOf(i)==-1){
+              a +=i;
+          }
+      }
+		System.out.println(a);
+	}
+}
+
+output
+helo
