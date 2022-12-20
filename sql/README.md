@@ -13,4 +13,5 @@ Database contains one or more tables
 
 table contains fields and records
  
+* SQL keywords are NOT case sensitive: select is the same as SELECT
  
