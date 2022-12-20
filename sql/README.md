@@ -1,1 +1,1 @@
-sql(Structured Query Language)
+sql - structured query language
