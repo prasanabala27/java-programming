@@ -27,3 +27,27 @@ a 2
 l 1
 j 1
 i 1
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String a ="balaji";
+	    char[] b = a.toCharArray();
+	    boolean[] d = new boolean[a.length()];
+	    Arrays.fill(d,false);
+	    for(int i=0;i<a.length();i++){
+	        int c=1;
+	        if(d[i])
+	        continue;
+	    for(int j=i+1;j<a.length();j++){
+	        if(b[i]==b[j]){
+	           
+	            d[j] = true;
+	             c++;
+	        }
+	    }    
+	        		System.out.println(b[i] +" " +c);
+
+	    }
+	}
+}
