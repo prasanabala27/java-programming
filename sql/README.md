@@ -50,5 +50,6 @@ DROP INDEX - deletes an index
       update      truncate
      
   * select * from table_name
+  
         meaning of * is - selects all rows and coloumn
  
