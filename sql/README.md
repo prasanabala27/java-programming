@@ -43,11 +43,11 @@ DROP INDEX - deletes an index
 * ddl - Data definition language
 
 
-       DML    |  DDL
-     select      create
-     insert      alter
-     delete      drop
-     update      truncate
+        DML    |  DDL
+      select      create
+      insert      alter
+      delete      drop
+      update      truncate
      
 
  
