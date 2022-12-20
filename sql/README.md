@@ -4,3 +4,7 @@ sql - structured query language
 
             DBMS           |      RDBMS
       data stored as file  | data stored as table
+   
+#fields - #column 
+#record - #row
+ 
