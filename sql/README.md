@@ -38,9 +38,9 @@ CREATE INDEX - creates an index (search key)
 
 DROP INDEX - deletes an index
 
-dml - Data manipulation language
+* dml - Data manipulation language
 
-ddl - Data definition language
+* ddl - Data definition language
 
 
        DML    |  DDL
